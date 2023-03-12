@@ -3,12 +3,13 @@
 <head>
     <title>HTML tags</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div style="text-align: right">
-        <a href="index.html" >Home</a>
-        <a href="tags.html"  style="margin: 0 0 0 10px">HTML Tags</a> 
-        <a href="moby_dick.html"  style="margin: 0 0 0 10px">Moby Dick</a>
+    <div id="main-nav" class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="tags.html" class="nav-spacing">HTML Tags</a> 
+        <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
     </div>
 
     <h1>Important HTML Tags</h1>
@@ -30,8 +31,6 @@
             <th>Tag</th>
             <th>Name</th>
             <th>Purpose</th>
-            <th>Example</th>
-            <th>Result</th>
         </tr>
         <tr>
             <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -64,16 +63,30 @@
             <td>include a table data cell</td>
         </tr>
         <tr>
+            <td><code>ol</code></td>
+            <td>ordered list</td>
+            <td>create an ordered list</td>
+        </tr>
+        <tr>
             <td><code>ul</code></td>
             <td>unordered list</td>
             <td>create an unordered list</td>
         </tr>
         <tr>
-            <td><code>ol</code></td>
-            <td>ordered list</td>
-            <td>create an ordered list</td>
+            <td><code>li</code></td>
+            <td>list item</td>
+            <td>Include a list item (ordered or unordered)</td>
         </tr>
-
+        <tr>
+            <td><code>blockwuote</code></td>
+            <td>Block quotation</td>
+            <td>Show formatted quotation</td>
+        </tr>
+        <tr>
+            <td><code>br</code></td>
+            <td>Break</td>
+            <td>Enter line break</td>
+        </tr>
     </table>
 
 <h2>Inline Elements</h2>
@@ -114,13 +127,22 @@
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"</td>
     </tr>
     <tr>
-        <td><code>li</code></td>
-        <td>list</td>
-        <td>creates a list point</td>
-        <td><code>&lt;li&gt;list point&lt;/li&gt;</code></td>
-        <td><li>list point</li></td>
+        <td><code>code</code></td>
+        <td>Code</td>
+        <td>include an image</td>
+        <td><code>&lt;code&gt;table&lt;/code&gt;</code></td>
+        <td><code>table</code></td>
+    </tr>
+    <tr>
+        <td><code>span</code></td>
+        <td>Span</td>
+        <td>Define inline section in document</td>
+        <td><code>&lt;span&gt;Call me Ishmael&lt;/span&gt;</code></td>
+        <td><span></span></td>
     </tr>
 </table>
+
+
 <h2>Document Tags</h2>
 <table style="width: 100%; padding: 10px">
         <tr>
