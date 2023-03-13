@@ -10,40 +10,10 @@ ruby, section, summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: px;
-}
-blockquote,q {
-    quotes: none;
-}
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-strong,b {
-    font-weight: bold;
-}
-em,i {
-    font-style: italic;
-}
-a img {
-    border: none;
-}
-/* END RESET*/
-
 /* GLOBAL STYLES */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -51,6 +21,30 @@ h1 {
     margin-top: 0;
 }
 a {color: #f00;
+}
+
+/* HEADER STYLES */
+.header-nav {
+    float: right;
+    padding: 5.5vh 60px 0 0;
+}
+
+.header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+}
+.header-nav a {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-nav a:hover, .header-nav a:active {
+    color: #ed6e2f;
+}
+.header-logo:hover, .header-logo:active  {
+    opacity: 0.5;
 }
 
 /* HERO STYLES */
