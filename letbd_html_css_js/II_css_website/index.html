@@ -6,25 +6,43 @@
         /* GLOBAL STYLES */
         
         a {
-            color: red;
-        }
-        
-        /* BIO STYLES */
-        .bio-box {
-            border: 1px solid black;
-        }
-        .bio-copy a {
             color: green;
         }
         
+        /* BIO STYLES */
+        body {
+            height: 800px
+        }
+        .bio-box {
+            border: 2px solid black;
+            font-size: 150%;
+            margin: 10%;
+            padding: 2%;
+            width: 50%;
+        }
+        .bio-copy {
+            color: green;
+            font-size: 1.5em;
+        }
+        .bio-wrapper {
+            width: 500px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+
+
+
         /* SOCIAL STYLES */
         .social-link {
+            background: rgba(150,150,150,0.5);
             color:blue
         }
     </style>    
 </head>
 
 <body>
+    <div style="border: 1px solid #000; width: 50%;height:100%">I'm a percent test, <br>and give  me more room</div>
     <h1>I'm an h1</h1>
     <ul>
         <li>
@@ -39,45 +57,47 @@
     </ul>
     
     <h2>I'm an h2</h2>
-    <div class="bio-box">
-        <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">here</a>
-        <p>
-            Known for his dazzling charme, rapier wit, and unrivaled humility,
-            Michael is the creator if the <a href="https://railstutorial.org/">Ruby on Rails Tutorial</a>
-            and prinzipal author of the <a href="https://learnenough.com">Learn Enough to Be Dangerous</a> introductory sequence.
-            Michael is also notorious as founder of <a href="http://tauday.com/">Tau Day</a> and author of
-            <ahref="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumors that he's
-            secretly asupervillain are slightly exaggerated.
-        </p>
+    <div class="bio-wrapper">
+        <div class="bio-box">
+            <h3>Michael Hartl</h3>
+            <a href="https://twitter.com/mhartl" class="social-link">here</a>
+            <p>
+                Known for his dazzling charme, rapier wit, and unrivaled humility,
+                Michael is the creator if the <a href="https://railstutorial.org/">Ruby on Rails Tutorial</a>
+                and prinzipal author of the <a href="https://learnenough.com">Learn Enough to Be Dangerous</a> introductory sequence.
+                Michael is also notorious as founder of <a href="http://tauday.com/">Tau Day</a> and author of
+                <ahref="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumors that he's
+                secretly asupervillain are slightly exaggerated.
+            </p>
+        </div>
     
-    </div>
-    <div class="bio-box">
-        <h3>Lee Donahoe</h3>
-        <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
-        <p>
-            When he's not literally swimming with sharks or huntingpowder stashes on
-            his snowboard, you can find Lee in front of his computerdesigning
-            interfaces, doing front-end development, or writing some of the interface-related
-            Learn Enough tutorials.
-        </p>
-        
-    </div>
-    <div class="bio-box">
-        <h3>Nick Merwin</h3>
-        <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
-        <p>
-            You may have seen him shredding guitar live with Capital Cities on Jimmy Kimmel,
-            Conan, or The Ellen Show, but rest assured Nick is atrue nerd at heart. He's just
-            as happy shredding well-spec'd lines of codefrom a tour bus as he is from his kitchen table.
-        </p>
-    </div>
+        <div class="bio-box">
+            <h3>Lee Donahoe</h3>
+            <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+            <p>
+                When he's not literally swimming with sharks or huntingpowder stashes on
+                his snowboard, you can find Lee in front of his computerdesigning
+                interfaces, doing front-end development, or writing some of the interface-related
+                Learn Enough tutorials.
+            </p>
+            
+        </div>
+        <div class="bio-box">
+            <h3>Nick Merwin</h3>
+            <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
+            <p>
+                You may have seen him shredding guitar live with Capital Cities on Jimmy Kimmel,
+                Conan, or The Ellen Show, but rest assured Nick is atrue nerd at heart. He's just
+                as happy shredding well-spec'd lines of codefrom a tour bus as he is from his kitchen table.
+            </p>
+        </div>
 
-    <div class="bio-box">
-    <h3>??</h3>
-        <p>
-            The Future
-        </p>
+        <div class="bio-copy">
+        <h3>??</h3>
+            <p>
+                The Future
+            </p>
+        </div>
     </div>
 </body>
 </html>
