@@ -149,15 +149,17 @@ header {
 }
 .full-hero:after {
     bottom: 2vh;
-    color: #fff;
-    content: "↓";
-    font-size: 36px;
+    border: 10px solid;
+    border-color: #fff transparent transparent;
+    content: "";
+    height: 0;
     left: 50%;
     position: absolute;
     transform: translate(-50%, 0);
+    width: 0;
 }
 .hero-home {
-    background-image: url(/II_css_website/chapter_9/sample_css/images/shark.jpg) ;
+    background-image: url(/II_css_website/chapter_9/sample_css/images/shark.jpg);
     background-position: center top;
 }
 .hero-content {
