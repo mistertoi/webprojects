@@ -29,24 +29,36 @@ h2 + p {
     max-width: 70%;
     text-align: center;
 }
+html {
+    box-shadow: 0 0 0 30px #000 inset;
+    padding: 0 30px;
+}
 
 /* HEADER STYLES */
 header {
-    background-color: #aaa;
-    height: 300px;
-    position: relative;
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    position: fixed;
     width: 100%;
+    z-index: 20;
 }
 .header-logo {
     background-color: #000;
-    height: 110px;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 110px;
+    box-sizing: border-box;
+    display: block;
+    height: 10vh;
+    left: -30px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 10vh;
+}
+.header-logo img {
+    width: 4.3vh;
 }
 .header-logo:hover, .header-logo:active  {
+    background-color: #ed6e2f;
     opacity: 0.5;
 }
 .header-nav {
@@ -64,11 +76,11 @@ header {
     color: #fff;
 }
 .header-nav > li ~ li {
-    border-left: 1px solid rgba(0,0,0,0.3);
+    border-left: 1px solid #fff;
     padding-left: 1em;
 }
 .header-nav a {
-    color: #000;
+    color: #fff;
     font-size: 0.8rem;
     font-weight: bold;
     text-decoration: none;
