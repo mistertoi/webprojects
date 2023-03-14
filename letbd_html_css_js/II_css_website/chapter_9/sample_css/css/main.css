@@ -16,8 +16,17 @@ a {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
     font-size: 16px;
+}
+
+.content-container {
+    flex-grow: 1;
+    padding-top: 10vh;
+    width: 100%;
 }
 
 h1 {
@@ -25,9 +34,11 @@ h1 {
     margin-top: 0;
     padding: 100px;
 }
+
 h2 {
     font-size: 2em;
 }
+
 h2~p {
     font-size: 0.8em;
     font-style: italic;
@@ -35,13 +46,16 @@ h2~p {
     max-width: 70%;
     text-align: center;
 }
+
 html {
     box-shadow: 0 0 0 30px #000 inset;
     padding: 0 30px;
 }
+
 p {
     line-height: 1.5;
 }
+
 /* HEADER STYLES */
 header {
     background-color: #000;
@@ -63,7 +77,6 @@ header {
     text-align: center;
     width: 10vh;
 }
-
 .header-logo img {
     width: 4.3vh;
 }
@@ -172,8 +185,7 @@ header {
     background-color: #c7dbfc;
     background-size: cover;
     box-sizing: border-box;
-    height: 100vh;
-    padding-top: 10vh;
+    height: 90vh;
 }
 
 .full-hero:after {
