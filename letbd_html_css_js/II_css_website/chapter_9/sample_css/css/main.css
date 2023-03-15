@@ -78,6 +78,7 @@ header {
     text-align: center;
     width: 10vh;
 }
+
 .header-logo img {
     width: 4.3vh;
 }
@@ -139,6 +140,17 @@ header {
     padding: 10vh 0 15vh;
     text-align: center;
     flex-grow: 1;
+}
+
+.footer-logo {
+    background-color: #000;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 10vh;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 10vh;
 }
 
 .footer-logo img {
