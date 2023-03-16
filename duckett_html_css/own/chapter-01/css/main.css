@@ -12,3 +12,16 @@ h3 {
     color: darkblue;
     background-color: #fff;
 }
+
+.quokkas {
+    float:left;
+    margin-right: 10px;
+    margin-block-end: auto;
+}
+.bu img {
+    box-shadow: #000;
+    border-image-width: auto;
+}
+.bu figcaption {
+    text-align: center;
+}
