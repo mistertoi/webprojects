@@ -10,6 +10,17 @@ body p {
     text-align: center;
 }
 
+body code {
+    background-color: white;
+    border: solid;
+    color: black;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    line-height: 1.5em;
+    padding: 5px;
+}
+
 h3 {
     color: darkblue;
     background-color: #fff;
