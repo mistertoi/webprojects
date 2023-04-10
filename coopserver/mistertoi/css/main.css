@@ -15,9 +15,9 @@ body {
 
 img {
     display: block;
-    height: auto;
+    height: 100vh;
     object-fit: cover;
-    width: auto;
+    width: 100vw;
 
 }
 
