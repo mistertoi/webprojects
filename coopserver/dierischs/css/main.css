@@ -16,7 +16,7 @@ body {
 img {
     display: block;
     height: 100vh;
-    object-fit: contain;
+    object-fit: cover;
     width: 100vw;
 }
 
