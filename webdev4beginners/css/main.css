@@ -23,6 +23,7 @@ button {
     background-color: yellow;
     border: 2px solid black;
     font-size: 24px;
+    margin: 5px 5px 25px 5px;
     height: 200px;
     width: 200px;
 }
@@ -37,8 +38,11 @@ div {
 
 p {
     background-color: red;
-    border: 2px solid red;
-    margin: 10px 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    display: inline;
+    font-weight: bold;
+    margin: 20px 5px;
     padding: 10px;
 }
 

@@ -9,10 +9,34 @@
 <body>
     <!-- <button onclick="alert('You clicked the damned button')"> Click here </button> -->
     <button onclick=message()>Click here</button>
+    <br>
+    <p id="para" onclick=demo2()>This is a paragraph!</p>
+    <p onclick=demo2()>This is the second paragraph!</p>
+    <p>This is the third paragraph!</p>
+
 </body>
+
 <script>
     function message(){
         alert('You clicked the damned button!')
     }
+
+    function demo(){
+        var ele = document.getElementById("para");
+        var elen = document.getElementsByTagName("p");
+        console.log(ele)
+        console.log(elen)
+    }
+
+    function demo2(){
+        // var ele = document.getElementById("para");
+        var ele = document.getElementsByTagName("p");
+        ele[0].innerHTML="New text!";
+        ele[1].innerHTML="New text!";
+        ele[2].innerHTML="New text!";
+        
+    }
+    
 </script>
-</html>
+
+</html>@
