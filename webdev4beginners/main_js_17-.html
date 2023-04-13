@@ -13,6 +13,19 @@
     <p id="para" onclick=demo2()>This is a paragraph!</p>
     <p onclick=demo2()>This is the second paragraph!</p>
     <p>This is the third paragraph!</p>
+    <br>
+    <img src="images/dormagen_aero.JPG"
+         width="200"
+         height="200"
+         onclick="demo3()"
+         id="image">
+    <br>
+    <p id="para2" style="color: green; background-color:darkgray"; onclick="demo4()">
+        This is a paragraph!<br>
+        This is a paragraph!<br>
+        This is a paragraph!<br>
+        This is a paragraph!
+    </p>
 
 </body>
 
@@ -31,12 +44,24 @@
     function demo2(){
         // var ele = document.getElementById("para");
         var ele = document.getElementsByTagName("p");
-        ele[0].innerHTML="New text!";
-        ele[1].innerHTML="New text!";
-        ele[2].innerHTML="New text!";
+        newtext = "Another Text"
+        ele[0].innerHTML=newtext;
+        ele[1].innerHTML="New text2!";
+        ele[2].innerHTML="New text3!";
         
+    }
+    
+    function demo3(){
+        var ele = document.getElementById("image");
+        ele.src = "./images/mountain.jpg"
+        
+    }
+    
+    function demo4() {
+        var ele = document.getElementById("para2")
+        ele.style.color="blue"
     }
     
 </script>
 
-</html>@
+</html>

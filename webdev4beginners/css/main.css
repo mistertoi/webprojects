@@ -36,11 +36,13 @@ div {
     border: 2px solid black;
 }
 
+img {
+    margin: 25px 5px;
+}
+
 p {
     background-color: red;
     border: 2px solid black;
-    border-collapse: collapse;
-    display: inline;
     font-weight: bold;
     margin: 20px 5px;
     padding: 10px;
