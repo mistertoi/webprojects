@@ -18,14 +18,23 @@
          width="200"
          height="200"
          onclick="demo3()"
-         id="image">
+         id="image"
+         alt="Can't load picture!">
     <br>
-    <p id="para2" style="color: green; background-color:darkgray"; onclick="demo4()">
+    <p id="para2" style="color: green; background-color: darkgray" onclick="demo4()">
         This is a paragraph!<br>
         This is a paragraph!<br>
         This is a paragraph!<br>
         This is a paragraph!
     </p>
+
+    <div id="main">
+        <button onclick="demo1()">Click here 2</button>
+    </div>
+    
+    <div id="main2">
+        <button onclick="demo5()">Click here 3</button>
+    </div>
 
 </body>
 
@@ -34,11 +43,19 @@
         alert('You clicked the damned button!')
     }
 
-    function demo(){
+    function demo0(){
         var ele = document.getElementById("para");
         var elen = document.getElementsByTagName("p");
         console.log(ele)
         console.log(elen)
+    }
+    
+    function demo1(){
+        var paragraph = document.createElement("p");
+        var text = document.createTextNode("This is a new paragraph!");
+        paragraph.appendChild(text);
+        var div = document.getElementById("main");
+        div.appendChild(paragraph)
     }
 
     function demo2(){
@@ -48,13 +65,11 @@
         ele[0].innerHTML=newtext;
         ele[1].innerHTML="New text2!";
         ele[2].innerHTML="New text3!";
-        
     }
     
     function demo3(){
         var ele = document.getElementById("image");
         ele.src = "./images/mountain.jpg"
-        
     }
     
     function demo4() {
@@ -62,6 +77,12 @@
         ele.style.color="blue"
     }
     
+    function demo5() {
+        var button = document.createElement("button");
+        button.innerHTML="New Button";
+        var div =  document.getElementById("main2")
+        div.appendChild(button)
+    }
 </script>
 
 </html>
