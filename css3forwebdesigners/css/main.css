@@ -25,4 +25,24 @@ a.foo {
 a.foo:hover, a.foo:focus {
    background: #690;
 }
-webkit
+
+ul.gallery li {
+    float: left;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* turn list-bullets OFF*/
+    list-style: none;
+}
+
+ul.gallery li a img {
+    float: left;
+    transition: transform 0.2s ease-out;
+    width: 150px;
+}
+
+ul.gallery li a:hover img {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.5) rotate(-5deg);
+    transform-origin: top;
+}
