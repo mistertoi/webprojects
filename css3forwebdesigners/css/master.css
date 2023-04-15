@@ -1,4 +1,4 @@
-/* 
+/*
 Title:		Master styles for screen media
 Author: 	dan@simplebits.com
 */
@@ -7,12 +7,12 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
     font-size: 100%;
-    /*background: */
-    /*	url(img/stars-1.png) repeat-x fixed -130% 0;*/
-    /*	url(img/stars-2.png) repeat-x fixed 40% 0;*/
-    /*	url(img/space-bg.png) repeat-x fixed -80% 0;*/
-    /* url(img/clouds.png) repeat-x fixed 100% 0; */
-    background: #1a1a1a url(img/space-bg.png) repeat-x fixed -80% 0;
+    background:
+        url(img/clouds.png) repeat-x fixed 100% 0;
+        url(img/stars-1.png) repeat-x fixed -130% 0;
+        url(img/stars-2.png) repeat-x fixed 40% 0;
+        url(img/space-bg.png) repeat-x fixed -80% 0;
+    background-color: #1a1a1a
 }
 
 /* links */
@@ -384,6 +384,14 @@ div.secondary h3.alerts {
 
 #thing-alerts fieldset:last-child {
     margin: 0;
+}
+
+#thing-alerts label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 1px #fff;
 }
 
 #thing-alerts fieldset label {
