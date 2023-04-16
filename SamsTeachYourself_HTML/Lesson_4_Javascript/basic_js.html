@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The American Eggplant Society</title>
+    <script src="/Lesson_4_Javascript/js/js.js"></script>
+</head>
+<body>
+<h1>Event Test</h1>
+<button onclick="alert('You clicked the damn button!')"
+        type="button">Click Me!
+</button>
+
+
+<h1>The American Eggplant Society</h1>
+<p>
+    Welcome to our site. Unfortunately, it is still
+    under construction.
+</p>
+<p>We last worked on it on this date: </p>
+
+<script>
+    <!-- Hide the script from old browsers -->
+    document.write(document.lastModified);
+    // Stop hiding the script -->
+</script>
+
+<br><br>
+
+<h1>Current Time and Date</h1>
+
+<h2>Large Clock</h2>
+<p>
+    <script>
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toUTCString();
+        document.write("<p><strong>Local time:</strong> " + localtime + "</p>");
+        document.write("<p><strong>UTC time:</strong> " + utctime + "</p>");
+
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+        msecs = now.getMilliseconds();
+        document.write("<h2>");
+        document.write(hours + ":" + mins + ":" + secs + ":" + msecs);
+        document.write("</h2>");
+    </script>
+</p>
+</body>
+</html>
