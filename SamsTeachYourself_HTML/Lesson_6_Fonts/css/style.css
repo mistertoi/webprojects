@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Cherry Swash";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cherry Shwash'),
+    url(http://themes.googleusercontent.com/static/fonts/cherryswash/v1/-CfyMyQqfucZPQNB0nvYyHl4twXkwp3_u9ZoePkT564.woff);
+}
+
+@font-face {
+    font-family: "Cherry Swash";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cherry Shwash Bold'), local('CherrySwash-Bold'),
+    url(http://themes.googleusercontent.com/static/fonts/cherryswash/v1/-CfyMyQqfucZPQNB0nvYyHl4twXkwp3_u9ZoePkT564.woff);
+}
+
+@font-face {
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/handlee/v14/-F6xfjBsISg9aMakPm3wow.woff2);
+
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Handlee", serif;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.indented {
+    margin-left: 25px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+p.contactinfo {
+    font-size: 14px;
+}
+
+p.categorylabel {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    width: 100%;
+}
+
+tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+
+}
+
+thead {
+    background-color: #ff0000;
+
+}
+
+.aligntop {
+    vertical-align: top;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.size {
+    text-align: center;
+}
